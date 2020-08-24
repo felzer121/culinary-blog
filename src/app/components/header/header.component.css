@@ -1,0 +1,149 @@
+header {
+  background: linear-gradient(180deg, rgba(139, 117, 129, 0.2) 99.99%, rgba(255, 255, 255, 0) 100%), url("../../../assets/header/fon.jpg") center center;
+  max-height: 850px;
+  height: 100%;
+  position: relative;
+}
+header > svg {
+  position: absolute;
+  bottom: 0;
+  max-width: 100%;
+}
+.cl-meet {
+  position: relative;
+}
+.cl-meet svg{
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  top: 0;
+  margin-top: -40px;
+}
+.cl-search {
+  background: linear-gradient(215.48deg, rgba(56, 66, 102, 0.85) 27.37%, rgba(51, 63, 108, 0.829018) 50.82%, rgba(58, 69, 111, 0.833) 69.5%, rgba(86, 74, 106, 0.85) 95.68%),  url('../../../assets/header/box-fon.jpg');
+  border-radius: 0 0 2px 2px;
+  max-width: 480px;
+  position: relative;
+  height: 810px;
+  z-index: 10;
+  width: 100%;
+}
+.th-header-boxed {
+  padding-bottom: 27px;
+}
+.th-cat {
+  height: 195px;
+}
+.th-header-boxed p {
+  margin-bottom: 20px;
+}
+mat-form-field.mat-form-field {
+  font-size: 14px;
+}
+:host::ng-deep .mat-form-field-flex {
+  background-color: #FFFFFF !important;
+}
+.th-box {
+  width: 100%;
+}
+.header-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.th-fl {
+  margin-right: 35px;
+}
+.nav-search {
+  height: 100%;
+  padding: 0 27px;
+}
+.th-solid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  background: #525E87;
+  border-radius: 2px;
+}
+.th-header-label {
+  margin-bottom: 50px;
+  height: 240px;
+}
+.nav-search p{
+  font-family: Russia, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.035em;
+
+  color: #DDDDDD;
+}
+header section{
+  max-width: 1300px;
+  margin: auto;
+}
+.hed-logo {
+  font-family: 'Augusto', sans-serif;
+  font-size: 30px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: -8px;
+  color: #ffffff;
+  transition: .5s;
+  letter-spacing: -0.075em;
+  max-width: 340px;
+}
+.cl-search h4 {
+  font-family: Bebas, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 0.045em;
+  color: #FFFFFF;
+}
+.nav-search h2 {
+  font-family: 'Teko', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  margin-top: 20px;
+  line-height: 92px;
+  color: #FFFFFF;
+}
+.hed-logo:hover {
+  opacity: 90%;
+}
+.hed-menu {
+  border-bottom: #F3F3F3 1px solid;
+  width: 100%;
+  margin-top: 40px;
+  height: 40px;
+}
+.hed-menu {
+  margin-left: 6%;
+}
+nav ul > li{
+  font-family: 'Bebas', sans-serif;
+  font-size: 22px;
+  cursor: pointer;
+  transition: .5s;
+  color: #ffffff;
+}
+nav ul > li:hover{
+  color: #82A19E;
+}
+nav ul > li:not(:last-child){
+  margin-right: 20px;
+}
+a{
+  color: white;
+  text-underline-offset: unset;
+  text-decoration: none;
+}
+.nav-toggle {
+  cursor: pointer;
+}

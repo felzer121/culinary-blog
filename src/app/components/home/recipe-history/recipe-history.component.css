@@ -1,0 +1,94 @@
+section {
+  margin-top: 50px;
+}
+
+.cocktail-desk{
+  position: relative;
+}
+.cocktail-desk p{
+  font-family: Russia, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  padding: 0 10px;
+  font-size: 16px;
+  margin-top: 12px;
+  line-height: 18px;
+  color: #CECECE;
+}
+.history-recipe {
+  margin-top: 20px;
+}
+.th-fon-dec{
+  margin-left: -100px;
+}
+.th-beer {
+  position: absolute;
+}
+.th-info {
+  width: 45%;
+  background-color: #F9F9F9;
+}
+.th-sub-info h6{
+  padding: 0 .6em;
+  font-family: Russia, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+  color: #000000;
+}
+.th-info h3 {
+  font-family: Russia, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 25px;
+  margin-top: 8px;
+  color: #000000;
+}
+.th-desk p:not(:last-child) {
+  margin-bottom: 15px;
+}
+.th-desk {
+  text-align: justify;
+  max-width: 90%;
+  font-family: Russia, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+.th-sub-desk {
+  margin-top: 15px;
+  max-width: 90%;
+}
+.th-judgment {
+  max-width: 290px;
+  width: 100%;
+}
+.th-sub-desk button {
+  border: 0;
+  border-radius: 2px;
+  padding: 12px 25px;
+  font-family: AvertaPE, sans-serif;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  background-color: #5A6B7C;
+}
+.th-assessment {
+  font-family: AvertaPE, sans-serif;
+  font-style: italic;
+  padding-left: 10px;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: #414C4F;
+}

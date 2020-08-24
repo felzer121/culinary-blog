@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  nginx-front:
+    build:
+      dockerfile: dev.Dockerfile
+      context: ./
+    ports:
+    - 8080:80
+    volumes:
+    - ./nginx:/etc/nginx/conf.d
+    - ./:/usr/src/app
+

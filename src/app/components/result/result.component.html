@@ -1,0 +1,12 @@
+<div class="flex flex_d_c">
+  <div class="flex">
+    <div class="pd-10" *ngFor="let recipe of recipes">
+      <app-recipe [title]="recipe.title"></app-recipe>
+    </div>
+  </div>
+  <div *ngIf="!recipes" class="pre-loading-block">
+    <mat-spinner></mat-spinner>
+  </div>
+</div>
+
+

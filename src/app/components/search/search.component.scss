@@ -1,0 +1,73 @@
+.hed-info .hed-title {
+  font-family: 'Augusto', sans-serif;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  line-height: 43px;
+
+}
+form.hed-info {
+  width: 54%;
+}
+.hed-form {
+  max-width: 800px;
+  width: 100%;
+}
+.hed-form input, .hed-form  select{
+  border: 0;
+}
+.hed-search {
+  background-color: #ffffff;
+  max-width: 505px;
+  width: 100%;
+  padding: 7px;
+  border-radius: 2px 0 0 2px;
+  height: 51px;
+}
+.hed-search svg {
+  margin: 0 15px;
+}
+mat-form-field  {
+  height: 65px;
+  border-right: #EDEDED solid 1px;
+  width: 100%;
+  font-size: 18px;
+  max-width: 440px;
+  .mat-form-field-underline {
+    height: 0!important;
+  }
+}
+.hed-button  svg {
+  position: absolute;
+  cursor: pointer;
+}
+.hed-info {
+  height: 95%;
+}
+.hed-more-info {
+  width: 100%;
+  max-width: 220px;
+}
+.hed-button > button{
+  position: relative;
+  width: 65px;
+  height: 65px;
+  border-radius: 0px;
+  cursor: pointer;
+  background-color: #5A6B7C;
+
+}
+.hed-button {
+  background-color: #ffffff;
+  border-radius: 0 2px 2px 0;
+}
+.hed-description {
+  font-size: 14px;
+  margin-top: 15px;
+  line-height: 16px;
+  color: #BABABA;
+}
+
+mat-form-field {
+  background: white;
+}

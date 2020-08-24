@@ -1,0 +1,64 @@
+.title-recipe {
+  background: url("../../../../assets/home/recipe-tabs/lg-more.png") top center no-repeat;
+  margin-top: 30px;
+}
+.title-recipe h3 {
+  margin-top: 14px;
+}
+.title-recipe p{
+  margin-top: 8px;
+  font-family: Russia, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #BABABA;
+}
+.th-submenu{
+  border-bottom: solid 1px #E3E3E3;
+  margin-bottom: 15px;
+}
+.th-submenu li {
+  font-family: TTLakes, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  padding-bottom: 2px;
+  margin-top: 25px;
+  color: #414C4F;
+  text-transform: uppercase;
+}
+.th-submenu li:not(:last-child) {
+  margin-right: 38px;
+}
+.th-submenu .th-active {
+  color: #B55D5D;
+  margin-bottom: -1px;
+  border-bottom: solid 1px #B55D5D;
+}
+app-recipe-tabs {
+  margin-bottom: 30px;
+}
+app-recipe-tabs .mat-tab-label {
+  font-family: TTLakes, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  padding-bottom: 2px;
+  margin-top: 25px;
+  color: #414C4F ;
+  text-transform: uppercase;
+  opacity: 1 !important;
+}
+app-recipe-tabs .mat-ink-bar {
+  background-color: #B55D5D !important;
+}
+app-recipe-tabs .mat-tab-label-active {
+  color: #B55D5D;
+  opacity: 1 !important;
+}
+mat-tab-header {
+  margin-bottom: 25px;
+}

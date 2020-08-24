@@ -1,0 +1,12 @@
+.example-card {
+  max-width: 400px;
+}
+
+.example-header-image {
+  background-image: url('../../../assets/footer/post.jpg');
+  background-size: cover;
+}
+
+.pd-10 {
+  margin: 10px 10px 10px 10px;
+}
